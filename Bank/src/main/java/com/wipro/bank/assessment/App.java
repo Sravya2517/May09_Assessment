@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.wipro.bank.entity.Account;
-
-
 public class App {
 	static final List<Account> accounts = new ArrayList<Account>();
 
