@@ -6,11 +6,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Before;
+
 import org.junit.Test;
 
 import com.wipro.bank.entity.Account;
 
 public class AppTest {
+	
 
 	@Before
 	public void setUp() throws Exception {
@@ -29,8 +31,7 @@ public class AppTest {
 	@Test
 	public void testGetAccountDetailsByID2() {
 		Account acc=new App().getAccountDetailsByID(2);
-		assertNotNull(acc);
-		assertEquals("patel",acc.getUserName());
+ 		assertEquals("patel",acc.getUserName());
 	}
 	
 	@Test
